@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html>
+  
+    <title>HTML ELEMENT TUTORIAL</title>
+    <!-- ALl meta information goes in the head section-->
+  <head>
+    <meta charset="UTF-8">
+    <base href="https://www.google.com/" target="_self">
+  </head>
+<body>
+  <p><strong>Welcome to the HTML Tag/Element tutorial</strong></p>
+  <p>What is Element?</p> 
+  <!-- textarea element-->
+  <textarea><any_tag>content</any_tag></textarea>
+  the content in the Box (excluding) is know as Element,where anything between "&lt;" and "&gt;" is known as
+  <b><a href="https://www.w3schools.com/html/html_elements.asp">TAG</a>
+  </b> and You Can Find tutorial about Element Below.
+  <!--video element-->
+  <video controls>
+    Video 
+  <source src="https://www.youtube.com/watch?v=bWPMSSsVdPk" type="video/mp4">
+  Your browser does not support the audio element.
+  </video>
+  
+  <ol start="1">
+  
+    <li><strong>&lt;a&gt;</strong>
+    <p>This Tag is used to add Link with help of Attribute "href"</p>
+    <code>&lt;a href="www.google.com"&gt; some_text&lt;/a&gt;</code>
+    <iframe height="100px" width="100%" 
+            src="https://www.google.com" name="a_tag">
+    </iframe>
+      <p><a href="https://www.google.com" target="a_tag">Example</a></p>
+    
+      <p>Example <a href="http://www.google.com">link</a> 
+        as "www.google.com".</p>
+      <p>some other attributes are at this 
+         <a href="https://www.w3schools.com/tags/tag_a.asp">Link.</a>
+      </p>
+    </li>
+    
+    <li><strong>&lt;abbr&gt;</strong>
+      <p>This tag defines an abbreviation or an acronym, like
+        "HTML", "Mr.", "Dec.", "ASAP", "ATM".</p>
+      <code>&lt;abbr title="Full_Form"&gt; Short_Form &lt;/abbr&gt;</code>
+      <p>Example = <abbr title="Full Stack Developer"> FSD </abbr>  is ready to deploy.</p>
+    </li>
+    
+    <li><strong>&lt;address&gt;</strong>
+    
+      <div><ul> <li>The &lt;address&gt; tag defines the contact information for the author/owner of a document or an article.</li>
+        <li>If the &lt;address&gt; element is inside the &lt;body&gt; element, it represents contact information for the document.</li>
+        <li>If the &lt;address&gt; element is inside an &lt;article&gt; element, it represents contact information for that article.</li>
+        <li>The text in the &lt;address&gt; element usually renders in italic. 
+          Most browsers will add a line break before and after the address element.</li>
+       </ul>
+       </div>
+      <b>Example</b>
+    <address>
+    Written by <a href="mailto:avinashrahul2029@gmail.com">Rahul Singh</a>.<br> 
+    Visit us at:<br>
+    www.FB.com/R.Singh<br>
+    Plot No. 29, Some Random Place<br>
+    Mars
+    </address>
+    </li>
+    
+    <li><strong>&lt;audio controls&gt;<br></strong>
+      &lt;<b>source</b> src="address of source"  type="audio/mp3"&gt;
+     <strong>&lt;/audio&gt;</strong>
+      
+      <p>The &lt;audio&gt; tag defines sound, such as music or other audio streams.
+Currently, there are 3 supported file formats for the &lt;audio&gt; element: MP3, WAV, and OGG:
+        Browser<br><b>Example.</b></p>
+      <textarea><audio controls>
+        <source src="eg_audio_1.mp3" type="audio/mp3">
+      </audio>
+      </textarea>
+      <audio controls>
+        <source src="eg_audio_1.mp3" type="audio/mp3">
+      </audio>
+    </li>
+    
+    <li><strong>&lt;video <b>controls</b>&gt;<br></strong>
+      &lt;<b>source</b> src="address of source"  type="video/mp4"&gt;
+     <strong>&lt;/video&gt;</strong>
+      
+      <p>The &lt;video&gt; tag defines video streams.
+Currently, there are 3 supported file formats for the &lt;video&gt; element: MP4,3GP etc
+Browser</br><b>Example.</b></p>
+      <textarea>
+        <video controls>
+        <source src="eg_video_1.mp4" type="audio/mp3">
+      </video>
+      </textarea>
+      <video controls>
+        <source src="eg_video_1.mp4" type="audio/mp3">
+      </video>
+    </li>
+    
+    <li><strong>&lt;strong&gt;</strong><br>
+     <ul><li>
+       The &lt;strong&gt; tag is a phrase tag. It defines important text.</li>
+    <li><b>Tip:</b>This tag is not deprecated, but it is possible to achieve richer effect with CSS.</li>
+    </ul>
+    <p><b>Example.<br></b>This <strong>WORD</strong> is bold because we used strong tag across that word.</p>
+    </li>
+    
+    <li><strong>&lt;sup&gt;</strong>
+  <ul>
+    <li>The &lt;sup&gt; tag defines superscript text. 
+      Superscript text appears half a character above the 
+      normal line, and is sometimes rendered in a smaller 
+      font. Superscript text can be used for footnotes, 
+      like WWW<sup>[1]</sup></li>
+    <li><b>Tip:</b> Use the &lt;sub&gt; 
+      tag to define subscript text.</li>
+  </ul>
+  <textarea><p>I am 1<sup>st</sup>.</p></textarea>
+  <p><b>Example.<br></b>I am 1<sup>st</sup>.</p>
+</li>
+    
+    <li><strong>&lt;sub&gt;</strong><br>
+  <ul>
+    <li>The &lt;sub&gt; tag defines subscript text. 
+      Subscript text appears half a character lower the 
+      normal line, and is sometimes rendered in a smaller 
+      font. Subscript text can be used for footnotes, 
+      like 2<sub>nd</sub></li>
+    <li><b>Tip:</b> Use the &lt;sub&gt; 
+      tag to define subscript text.</li>
+</ul>
+    <textarea><p>I am 1<sup>st</sup>.</p></textarea>
+  <p><b>Example.</br></b>I am 2<sub>nd</sub>.</p>
+</li>
+
+    <li><strong>&lt;textarea&gt;</strong><br>
+  The &lt;textarea&gt; tag defines a multi-line text input control.
+<ul>
+<li>A text area can hold an unlimited number of characters,
+  and the text renders in a fixed-width font (usually Courier).</li>
+<li>The size of a text area can be specified by the cols and
+rows attributes, or even better; through CSS' height and 
+  width properties.</li>
+  <textarea>&lt;textarea&gt; some text &lt;textarea&gt;</textarea>
+  <textarea>sometext</textarea>
+</ul>
+</li>
+    
+<li><strong>&lt;article&gt;</strong>
+  <ul>
+    <li>The &lt;article&gt; tag specifies independent, self-contained content.</li>
+    <li>An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.</li>
+    <li>Potential sources for the &lt;article&gt; element:</li>
+    <ul>
+      <li>Forum post</li>
+      <li>Blog post</li>
+      <li>News story</li>
+      <li>Comment</li>
+    </ul>
+  </ul>
+  <textarea>&lt;article&gt;Some Random Article regarding some topic&lt;/article&gt;</textarea>
+  <b><br>Output</b>
+  <article>Some Random Article regarding some topic</article>
+    </li>
+  
+
+  
+  
+    <li><strong>&lt;aside&gt;</strong>
+    <ul>
+    <li>The &lt;aside&gt; tag defines some content aside from the content it is placed in.
+    </li><li>The aside content should be related to the surrounding content.
+      </li></ul>
+    <textarea><aside>Some Text </aside></textarea>
+    <b><br>output.</b>
+    <aside>Some Text </aside>
+    </li>
+    
+    <li><strong>&lt;base&gt;</strong>
+      <ul>
+        
+        <li>The &lt;base&gt; tag specifies the base URL/target 
+            for all relative URLs in a document.</li>
+        <li>There can be at maximum one &lt;base&gt; element 
+            in a document, and it must be inside the &lt;head&gt;
+            element.</li>
+        <li><b>Note:</b> If the &lt;base&gt; tag is present,
+          it must have either an href attribute or a target attribute, or both.</li>
+      </ul>
+      <textarea>
+        <head>
+          <base href="https://www.google.com/" target="_self">
+        </head>
+      </textarea>
+      <a href="https://www.google.com/">Link</a>
+    </li>
+    
+    <li><strong>&lt;p&gt;</strong>
+      <textarea><p>some paragraph</p></textarea>
+      <b>Output</b>
+      <p>some paragraph</p>
+    </li>
+    
+    <li><strong>&lt;pre&gt;</strong>
+    <textarea><pre>some pre text which can have spaces assigned as you want it in your text</pre></textarea>
+      <b>Output</b>
+      <pre>some pre text which can have spaces assigned as you want it in your text</pre>
+    </li>
+    
+    <li><strong>&lt;iframe&gt;</strong>
+    
+    </li>
+    
+    <li><strong>&lt;table&gt;</strong>
+    
+    </li>
+    
+    <li><strong>&lt;img&gt;</strong>
+    
+    </li>
+    
+   <li><strong>&lt;form&gt;</strong>
+    
+    </li>
+  </ol>
+  
+</body>
+</html>
