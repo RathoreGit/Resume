@@ -1,64 +1,129 @@
 <!DOCTYPE html>
 <html>
-    <body>
-<!--This is ABout Section as a Header -->
-        <div name="About">
-        <h3>About Me</h3>
-            <img src="/home/test45/Downloads/pic.jpeg">
-        <p>This is ABout Me!</p>
-	<ul name="links">
-        <li><a href="www.facebook.com">Facebook_Link</a></li>
-        <li><a href="www.linkedin.com">LinkedIn_Link</a></li>
-        <li><a href="www.Github.com">GitHub_Link</a></li>
-        </div>
-<!-- Multiple Paragraph Under a Div for Skill,Projects,Hobbies etc -->
-	<div name="Content">
-           <h3>Academics</h3>
-           <ul name="Academics">
 
-           <table align="right">
-               <tr>
-                 <th>Level</th>
-                 <th>Instituation_Name</th> 
-                 <th>Percentage</th>
-               </tr>
-  
-               <tr>
-                 <td>Class 10</td>
-                 <td>ABC </td>
-                 <td>8.2/10</td>
-               </tr>
-               <tr>
-                 <td>CLass 12</td>
-                 <td>WXY </td>
-                 <td>92.2/100</td>
-               </tr>
-               <tr>
-                 <td>College/University</td>
-                 <td>PQR</td>
-                 <td>7.8/10</td>
-               </tr>
-           </table>
-           </ul>
-           <h3>Skill</h3>
-           <ul name="Skill">
-               <li>C++</li>
-               <li>Java</li>
-               <li>Machine Learning</li>
-               <li>Full Stack Develpoer</li>
-           </ul>
-	   <h3>Project</h3>
-           <ul name="Project">
-               <li>Project 1</li>
-               <li>Project 2</li>
-           </ul>
-           <h3>Hobbies</h3>
-           <ul name="Hobbies">
-               <li>Cricket</li>
-               <li>Rap</li>
-           </ul>
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+</head>
+
+<body >
+    <table border="5" style="width:100%">
+        <tr>
+            <th>
+                <figure><img src="Images/Rahul.jpg" height="100" width="100" alt="Images/Pic.jpeg" style="border-radius:50%; height: 132px; width: 132px">
+                	<figcaption>RAHUL SINGH </figcaption>
+                </figure>
+            </th>
+            <th style="text-align:left">
+                <ul style="list-style-type: none">
+                    <li><a href="www.google.com"><figure style="align-items: center"><img src=Images/FB.png alt="" style="height: 20px; width: 20px">
+                    	<figcaption><!--www.FB.com/RahulSinghRathore--></figcaption>
+                    </figure></a></li>
+                    <li><a href="www.google.com"><figure><img src=Images/Github.png alt="" style="border-radius:50%; height: 20px; width: 20px">
+                    	<figcaption><!--
+                    		www.Github.com/RathoreGit-->
+                    	</figcaption>
+                    </figure>
+                    </a></li>
+                    <li ><a href="www.google.com"><figure><img src=Images/Skype.jpeg alt="" style="border-radius:50%; height: 20px; width: 20px">
+                    	<figcaption><!--
+                    		Rathore_skype-->
+                    	</figcaption>
+                    </figure>
+                    </a></li>
+                    <li><a href="www.google.com"><figure><img src=Images/Linkedin.png alt="" style="border-radius:50%; height: 20px; width: 20px">
+                    	<figcaption><!--
+                    		www.linkedin.com/Rahul Singh-->
+                    	</figcaption>
+                    	</figure>
+                    </a></li>
+                </ul>
+            </th>
+        </tr>
+        <!--
+        <tr>
+            <td colspan="2" style="width:100%;font-size:24; background-color: lightblue">
+                Rahul Singh
+            </td>
+        </tr>
+      -->
+        <tr>
+            <td colspan="2" style="color: red;background-color: pink;text-align:center;"> <b>Acadmics </b></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;border:0px;">
+                <table style="border:1;width:100%; text-align: left;background-color: lightblue">
+                    <tr>
+                        <td>Qualification</td>
+                        <td>Instituation_Name</td>
+                        <td>Percentage</td>
+                    </tr>
+                    <tr>
+                        <td>Class 10</td>
+                        <td>ABC </td>
+                        <td>8.2/10</td>
+                    </tr>
+                    <tr>
+                        <td>CLass 12</td>
+                        <td>WXY </td>
+                        <td>92.2/100</td>
+                    </tr>
+                    <tr>
+                        <td>College/University</td>
+                        <td>PQR</td>
+                        <td>7.8/10</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="border-color: red">
+                <h3 style="color: red;background-color: pink;text-align:center;"><strong>Projects</strong></h3>
+                <ul style="list-style-type: square;">
+                    <li>
+                        <h4>Handwritten Digit Recognition using Convolutional Neural Networks in Python with Keras</h4>
+                        <p>A popular demonstration of the capability of deep learning techniques is object recognition in image data.
+
+The “hello world” of object recognition for machine learning and deep learning is the MNIST dataset for handwritten digit recognition</p>
+                    </li>
+                    <li>
+                        <h4>Lossless Secret Image Sharing</h4>
+                        <p>Secret image sharing deals with splitting confidential images into several shares and the original image can be reconstructed from the qualified subset of the shares. Secret sharing schemes are used in transmission and storage of private medical images and military secrets. Increased confidentiality and availability are the major achievements. We propose an efficient (2, 2) scheme and (2, 3) scheme for secret image sharing. The scheme is lossless and also the share size is same as the secret size. </p>
+                    </li>
+                    <li>
+                        <h4>Pseudo Project </h4>
+                        <p>Pseduo Para A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td style="background-color: lightblue">
+                <h3 style="color: red;background-color: pink;text-align:center;"><strong>Skill</strong></h3>
+                <ul style="list-style-type: circle;">
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>HTML,CSS</li>
+                    <li>Machine Learning</li>
+                    <li>Debugger tools Like W3Validators,Browser Debugger</li>
+                    <li>Image Processing</li>
+                </ul>
+            </td>
+            <td >
+                <h3 style="color: red;background-color: pink;text-align:center;"><strong>Hobbies</strong></h3>
+                <ul style="list-style-type: none">
+                    <li style="display: inline;padding: 10px;background-color: lightblue">Reading</li>
+                    <li style="display: inline;padding: 10px;background-color: lightblue">Cricket</li>
+                    <li style="display: inline;padding: 10px;background-color: lightblue">Observing Art</li>
+                    <li style="display: inline;padding: 10px;background-color: lightblue">Rap</li>
+                    <li style="display: inline;padding: 10px;background-color: lightblue">Playing Online Games</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <p style="text-align:center;background-color: lightgrey"><strong>Thank You</strong> </p>
+    </footer>
+</body>
+
 </html>
-
-<!-- semantic tags,mdn documentation or official doc-->
